@@ -51,6 +51,7 @@ export default (function () {
         markers : [ {
           latLng : [-6.816, 39.27],
           name : 'Tanzania : 900',
+          style: {r: 4, fill:'red'}
         },{
           latLng : [18.73, 70.16],
           name : 'Dominican Republic : 900',
@@ -89,8 +90,6 @@ export default (function () {
           regions: [{
             values: {
               'US': 298,
-              'SA': 200,
-              'AU': 760,
               'TZ': 900,
               'DO': 600,
             },
@@ -104,7 +103,7 @@ export default (function () {
         scaleColors: ['#b6d6ff', '#005ace'],
         selectedColor: '#c9dfaf',
         selectedRegions: [],
-        enableZoom: false,
+        enableZoom: true,
         hoverColor: '#fff',
       });
     }
