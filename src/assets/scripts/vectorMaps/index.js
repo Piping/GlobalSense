@@ -57,10 +57,10 @@ export default (function () {
           name : 'Dominican Republic : 900',
         },{
           latLng: [-116.352110, 40.974394], 
-          name: 'Barrick Nevada'
+          name: 'Barrick Nevada : 700'
         },{
           latLng: [-78.246946, -7.961657], 
-          name: 'Lagunas Norte'
+          name: 'Lagunas Norte : 500'
         },{
           latLng: [25.137037, -11.823232], 
           name: 'Lumwana'
